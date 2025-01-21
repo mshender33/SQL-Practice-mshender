@@ -1,3 +1,4 @@
+
 -- What are all the neighborhoods, alphabetically?
 
 -- +------------------------+
@@ -12,4 +13,6 @@
 -- | Belmont Cragin         |
 -- | Beverly                |
 
-
+SELECT DISTINCT neighborhood
+FROM listings
+ORDER BY neighborhood ASC;
